@@ -12,7 +12,7 @@ Please note that while this was initially ported from this repo,  it may or may 
 
 This was a quick port, so it's not very well tested(not at all as of now). I'm using it for a project, so I'll be adding to it as I need to. Feel free to contribute.
 I will be adding more documentation as I go.
-This port was done by asking gtp4 to port the project
+This port was done by asking gpt4 to port the project
 
 ## Usage(will updated soon):
 
