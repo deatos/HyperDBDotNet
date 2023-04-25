@@ -9,7 +9,7 @@ using MathNet.Numerics.LinearAlgebra;
 namespace HyperDBDotNet {
     public interface IEmbed {
 
-        public Vector<Double> GetQueryVector(String Query);
+        public Vector<Double> GetVector(String Query);
 
         }
 }
