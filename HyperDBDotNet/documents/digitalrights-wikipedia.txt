@@ -1,0 +1,210 @@
+﻿{{short description|Type of human and legal rights}}
+{{distinguish|Digital rights management}}
+{{see also|Right to Internet access|Freedom of information}}
+{{Rights|Groups}}
+{{Internet|General}}
+'''Digital rights''' are those [[human rights]] and [[Natural and legal rights|legal rights]] that allow individuals to access, use, create, and publish [[digital media]] or to access and use [[computer]]s, other [[Consumer electronics|electronic devices]], and [[telecommunications network]]s. The concept is particularly related to the protection and realization of existing rights, such as the [[right to privacy]] and [[Freedom of speech|freedom of expression]], in the context of  digital technologies, especially the [[Internet]].<ref>{{cite news | url=http://news.bbc.co.uk/2/hi/special_report/1998/encryption/58154.stm | work=BBC News | title=Digital freedom: the case for civil liberties on the Net | date=1999-03-04 | access-date=2010-05-01 | archive-date=2016-03-03 | archive-url=https://web.archive.org/web/20160303171032/http://news.bbc.co.uk/2/hi/special_report/1998/encryption/58154.stm | url-status=live }}</ref> The laws of several countries recognize a [[right to Internet access]].<ref name="cjicl.com">{{Cite journal|last=Lucchi|first=Nicola|date=2011-02-06|title=Access to Network Services and Protection of Constitutional Rights: Recognizing the Essential Role of Internet Access for the Freedom of Expression|url=https://papers.ssrn.com/abstract=1756243|language=en|location=Rochester, NY|ssrn=1756243|access-date=2020-12-03|archive-date=2023-01-17|archive-url=https://web.archive.org/web/20230117060740/https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1756243|url-status=live}}</ref>
+
+== Human rights and the Internet ==
+A number of [[human rights]] have been identified as relevant with regard to the [[Internet]]. These include [[freedom of expression]], [[privacy]], and [[freedom of association]]. Furthermore, the [[right to education]] and [[multilingualism]], [[consumer rights]], and capacity building in the context of the [[right to development]] have also been identified.<ref>Benedek 2008, 17 November 2011</ref><ref>{{Cite journal|last1=Kim|first1=Minjeong|last2=Choi|first2=Dongyeon|date=2018|title=Development of Youth Digital Citizenship Scale and Implication for Educational Setting|url=https://www.jstor.org/stable/26273877|journal=Journal of Educational Technology & Society|volume=21|issue=1|pages=155–171|jstor=26273877|issn=1176-3647|access-date=2020-11-15|archive-date=2020-10-05|archive-url=https://web.archive.org/web/20201005094733/https://www.jstor.org/stable/26273877|url-status=live}}</ref>
+<blockquote>
+According to an editorial in the journal ''La Civilta Cattolica'' the [[Internet]] is a global public good that should be accessible to all and respectful of the rights of others. With repressive regimes restricting [[access to information]] and communications, democratic governments should work to guarantee access to the Internet and adopt general principles to ensure network use respects universal human rights.
+
+"What the law permits or prohibits offline must also be the case online ... The "only widespread international consensus" on online material to be censored regards child pornography and cyberterrorism. The article continued, saying that with individuals abusing the freedom of expression, with companies potentially exploiting computer users for financial gain and repressive regimes blocking information from their citizens, the world needs a "Charter of Human Rights for the Internet".
+</blockquote>
+
+The [[Electronic Frontier Foundation]] has criticized the [[United States government]] for considering during the [[Megaupload]] seizure process that people lose [[property right]]s by storing data on a cloud computing service.<ref>[https://www.eff.org/deeplinks/2012/10/governments-attack-cloud-computing Megaupload and the Government's Attack on Cloud Computing] {{Webarchive|url=https://web.archive.org/web/20171123025643/https://www.eff.org/deeplinks/2012/10/governments-attack-cloud-computing |date=2017-11-23 }} - Electronic Frontier Foundation, October 31, 2012</ref>
+
+==Ensuring that access is broadly available and/or preventing unreasonable restrictions==
+
+Several countries have adopted laws that require the state to work to ensure that Internet access is broadly available and/or preventing the state from unreasonably restricting an individual's access to information and the Internet:
+* [[Costa Rica]]: A 30 July 2010 ruling by the Supreme Court of Costa Rica stated: "Without fear of equivocation, it can be said that these technologies [information technology and communication] have impacted the way humans communicate, facilitating the connection between people and institutions worldwide and eliminating barriers of space and time. At this time, access to these technologies becomes a basic tool to facilitate the exercise of fundamental rights and democratic participation (e-democracy) and citizen control, education, freedom of thought and expression, access to information and public services online, the right to communicate with government electronically and administrative transparency, among others. This includes the fundamental right of access to these technologies, in particular, the right of access to the Internet or World Wide Web."<ref>[http://200.91.68.20/pj/scij/busqueda/jurisprudencia/jur_texto_sentencia.asp?nValor2=483874&tem1=013141&param7=0&lResultado=3&nValor1=1&strTipM=T&strLib=LIB "Judgement 12790 of the Supreme Court"] {{webarchive|url=https://web.archive.org/web/20151217120514/http://200.91.68.20/pj/scij/busqueda/jurisprudencia/jur_texto_sentencia.asp?nValor2=483874&tem1=013141&param7=0&lResultado=3&nValor1=1&strTipM=T&strLib=LIB |date=2015-12-17 }}, File 09-013141-0007-CO, 30 July 2010. ([http://www.google.com/translate_c?langpair=en&u=http://200.91.68.20/pj/scij/busqueda/jurisprudencia/jur_texto_sentencia.asp?nValor2=483874&tem1=013141&param7=0&lResultado=3&nValor1=1&strTipM=T&strLib=LIB English translation] {{Webarchive|url=https://web.archive.org/web/20151217120514/http://200.91.68.20/pj/scij/busqueda/jurisprudencia/jur_texto_sentencia.asp?nValor2=483874&tem1=013141&param7=0&lResultado=3&nValor1=1&strTipM=T&strLib=LIB |date=2015-12-17 }})</ref>
+* [[Estonia]]: In 2000, the parliament launched a massive program to expand access to the countryside. The Internet, the government argues, is essential for life in the 21st century.<ref>[http://www.csmonitor.com/2003/0701/p07s01-woeu.html "Estonia, where being wired is a human right"] {{Webarchive|url=https://web.archive.org/web/20120222045554/http://www.csmonitor.com/2003/0701/p07s01-woeu.html |date=2012-02-22 }}, Colin Woodard, ''Christian Science Monitor'', 1 July 2003</ref>
+* [[European Union]]: {{as of|2022|04}}, the [[European Parliament]] is considering a Declaration on Digital Rights.<ref name="european-commission-2022">{{cite book
+ | author = European Commission
+ | title = European Declaration on Digital Rights and Principles for the digital decade — COM(2022) 28 final
+ | date = 26 January 2022
+ | publisher = European Commission
+ | location = Brussels, Belgium
+ | url = https://ec.europa.eu/newsroom/dae/redirection/document/82703
+ | access-date = 2022-04-20
+ | archive-date = 2022-05-11
+ | archive-url = https://web.archive.org/web/20220511193627/https://ec.europa.eu/newsroom/dae/redirection/document/82703
+ | url-status = live
+ }}</ref>
+* [[Finland]]: By July 2010, every person in Finland was to have access to a one-megabit per second broadband connection, according to the [[Ministry of Transport and Communications (Finland)|Ministry of Transport and Communications]]. And by 2015, access to a 100 Mbit/s connection.<ref>[http://news.cnet.com/8301-17939_109-10374831-2.html "Finland makes 1Mb broadband access a legal right"] {{Webarchive|url=https://web.archive.org/web/20120729123950/http://news.cnet.com/8301-17939_109-10374831-2.html |date=2012-07-29 }}, Don Reisinger, ''CNet News'', 14 October 2009</ref>
+* [[France]]: In June 2009, the [[Constitutional Council of France|Constitutional Council]], France's highest court, declared access to the Internet to be a basic human right in a strongly-worded decision that struck down portions of the [[HADOPI law]], a law that would have tracked abusers and without judicial review and automatically cut off network access to those who continued to download illicit material after two warnings<ref>{{cite news | url=http://www.foxnews.com/story/0,2933,525993,00.html | work=London Times | publisher=Fox News | title=Top French Court Declares Internet Access 'Basic Human Right' | date=12 June 2009 | access-date=29 April 2012 | archive-date=7 January 2012 | archive-url=https://web.archive.org/web/20120107044340/http://www.foxnews.com/story/0,2933,525993,00.html | url-status=live }}</ref>
+* [[Greece]]: Article 5A of the [[Constitution of Greece]] states that all persons have the right to participate in the [[Information society|Information Society]] and that the state has an obligation to facilitate the production, exchange, diffusion, and access to electronically transmitted information.<ref name="gr">[http://www.hellenicparliament.gr/UserFiles/f3c70a23-7696-49db-9148-f24dce6a27c8/001-156%20aggliko.pdf ''Constitution of Greece As revised by the parliamentary resolution of May 27th 2008 of the VIIIth Revisionary Parliament''] {{Webarchive|url=https://web.archive.org/web/20150705085050/http://www.hellenicparliament.gr/UserFiles/f3c70a23-7696-49db-9148-f24dce6a27c8/001-156%20aggliko.pdf |date=2015-07-05 }}, English language translation, Hellenic Parliament</ref>
+* [[Spain]]: Starting in 2011, [[Telefónica]], the former [[state monopoly]] that holds the country's "[[universal service]]" contract, has to guarantee to offer "reasonably" priced broadband of at least one megabyte per second throughout Spain.<ref>{{cite news |url = https://www.reuters.com/article/idUSLH61554320091117 |title = Spain govt to guarantee legal right to broadband |author = Sarah Morris |publisher = Reuters |date = 17 November 2009 |access-date = 1 July 2017 |archive-date = 25 December 2010 |archive-url = https://web.archive.org/web/20101225064217/http://www.reuters.com/article/idUSLH61554320091117 |url-status = live }}</ref>
+
+== APC Internet Rights Charter ==
+The APC Internet Rights Charter was established by the [[Association for Progressive Communications]] (APC) at the APC Europe Internet Rights Workshop, held in Prague, February 2001. The Charter draws on the People's Communications Charter and develops seven themes: internet access for all; [[freedom of expression]] and [[freedom of association|association]]; access to knowledge, shared learning and creation - free and [[open source software]] and technology development; [[privacy]], [[surveillance]] and [[encryption]]; [[governance]] of the internet; awareness, protection and realization of rights.<ref>{{cite web |url=http://www.internetrights.org.uk/index.shtml?AA_SL_Session=8fa795873994ed10dd54938b98227a99&x=609 |title=Towards a charter for Internet rights |access-date=2 December 2008 |publisher=Internet Rights UK |archive-date=3 March 2016 |archive-url=https://web.archive.org/web/20160303174758/http://www.internetrights.org.uk/index.shtml?AA_SL_Session=8fa795873994ed10dd54938b98227a99&x=609 |url-status=live }}</ref><ref>{{cite book |title=Internet Governance and the Information Society |last=Benedek |first=Wolfgang |author2=Veronika Bauer |author3=Matthias Kettemann |year=2008 |publisher=Eleven International Publishing |isbn=978-90-77596-56-2 |url=https://books.google.com/books?id=ie7Yqiw85TcC&q=%22digital+rights%22+%22human+rights%22 |page=39 |access-date=2021-11-29 |archive-date=2023-01-17 |archive-url=https://web.archive.org/web/20230117060743/https://books.google.com/books?id=ie7Yqiw85TcC&q=%22digital+rights%22+%22human+rights%22 |url-status=live }}</ref> The APC states that "the ability to share information and communicate freely using the internet is vital to the realization of human rights as enshrined in the [[Universal Declaration of Human Rights]], the [[International Covenant on Economic, Social and Cultural Rights]], the [[International Covenant on Civil and Political Rights]] and the [[Convention on the Elimination of All Forms of Discrimination against Women]]."<ref>{{cite web |url=http://rights.apc.org/charter.shtml |title=ICT Policy and Internet Rights |access-date=2 December 2008 |publisher=[[Association for Progressive Communications]] |archive-date=17 December 2008 |archive-url=https://web.archive.org/web/20081217021644/http://rights.apc.org/charter.shtml |url-status=dead }}</ref> The APC Internet Rights Charter is an early example of a so-called Internet bill of rights, an important element of [[digital constitutionalism]]. 
+
+== World Summit on the Information Society (WSIS) ==
+In December 2003 the [[World Summit on the Information Society]] (WSIS) was convened under the auspice of the [[United Nations]] (UN). After lengthy negotiations between governments, businesses and civil society representatives the WSIS Declaration of Principles was adopted<ref name="Murray">{{Cite book| last1 = Klang| first1 = Mathias| last2 = Murray| first2 = Andrew| title = Human Rights in the Digital Age| year = 2005| url = https://books.google.com/books?id=USksfqPjwhUC&q=%22digital+rights%22+human+rights| publisher = Routledge| page = 1| isbn = 9781904385318| access-date = 2021-11-29| archive-date = 2023-01-17| archive-url = https://web.archive.org/web/20230117060742/https://books.google.com/books?id=USksfqPjwhUC&q=%22digital+rights%22+human+rights| url-status = live}}</ref> reaffirming [[human rights]]:<ref name="Murray" />
+<blockquote>
+We reaffirm the universality, indivisibility, interdependence and interrelation of all human rights and fundamental freedoms, including the [[right to development]], as enshrined in the [[Vienna Declaration]]. We also reaffirm that [[democracy]], [[sustainable development]], and respect for human rights and fundamental freedoms as well as good governance at all levels are interdependent and mutually reinforcing. We further resolve to strengthen the rule of law in international as in national affairs.
+</blockquote>
+
+The WSIS Declaration also makes specific reference to the importance of the right to [[freedom of expression]] in the "[[information society|Information Society]]" in stating:<ref name="Murray" />
+
+<blockquote>
+We reaffirm, as an essential foundation of the Information Society, and as outlined in Article 19 of the [[Universal Declaration of Human Rights]], that everyone has the right to freedom of opinion and expression; that this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers. Communication is a fundamental social process, a basic human need and the foundation of all social organisation. It is central to the Information Society. Everyone, everywhere should have the opportunity to participate and no one should be excluded from the benefits of the Information Society offers.
+</blockquote>
+
+The 2004 WSIS Declaration of Principles also acknowledged that "it is necessary to prevent the use of information resources and technologies for criminal and terrorist purposes, while respecting human rights".<ref>{{Cite book| last1 = Klang| first1 = Mathias| last2 = Murray| first2 = Andrew| title = Human Rights in the Digital Age| year = 2005| url = https://books.google.com/books?id=USksfqPjwhUC&q=%22digital+rights%22+human+rights| publisher = Routledge| page = 2| isbn = 9781904385318| access-date = 2021-11-29| archive-date = 2023-01-17| archive-url = https://web.archive.org/web/20230117060742/https://books.google.com/books?id=USksfqPjwhUC&q=%22digital+rights%22+human+rights| url-status = live}}</ref> Wolfgang Benedek comments that the WSIS Declaration only contains a number of references to human rights and does not spell out any procedures or mechanism to assure that human rights are considered in practice.<ref name="Benedek 2008 36">{{cite book |title=Internet Governance and the Information Society |last=Benedek |first=Wolfgang |author2=Veronika Bauer |author3=Matthias Kettemann |year=2008 |publisher=Eleven International Publishing |isbn=978-90-77596-56-2 |url=https://books.google.com/books?id=ie7Yqiw85TcC&q=%22digital+rights%22+%22human+rights%22 |page=36 |access-date=2021-11-29 |archive-date=2023-01-17 |archive-url=https://web.archive.org/web/20230117060743/https://books.google.com/books?id=ie7Yqiw85TcC&q=%22digital+rights%22+%22human+rights%22 |url-status=live }}</ref>
+
+[[File:Open rights group.jpg|thumb|right|300px|Digital rights landscape]]
+
+== Digital rights landscape ==
+In 2005, the United Kingdom's [[Open Rights Group]] published a digital rights landscape, documenting the range of organizations and people active in the cause of preserving digital rights. The diagram related groups, individuals, and websites to interest areas.<ref>{{Citation|last=Charman-Anderson|first=Suw|title=UK digital rights landscape|date=2005-09-17|url=https://www.flickr.com/photos/suw/43991064/|access-date=2019-06-19|archive-date=2017-07-19|archive-url=https://web.archive.org/web/20170719002159/https://www.flickr.com/photos/suw/43991064|url-status=live}}</ref>
+
+== Internet Bill of Rights and Charter on Internet Rights and Principles ==
+The Dynamic Coalition for an Internet Bill of Rights held a large preparatory Dialogue Forum on Internet Rights in Rome, September 2007 and presented its ideas at the [[Internet Governance Forum]] (IGF) in Rio in November 2007 leading to a joint declaration on internet rights.<ref>{{cite book |title=Internet Governance and the Information Society |last=Benedek |first=Wolfgang |author2=Veronika Bauer |author3=Matthias Kettemann |year=2008 |publisher=Eleven International Publishing |isbn=978-90-77596-56-2 |url=https://books.google.com/books?id=ie7Yqiw85TcC&q=%22digital+rights%22+%22human+rights%22 |page=38 |access-date=2021-11-29 |archive-date=2023-01-17 |archive-url=https://web.archive.org/web/20230117060743/https://books.google.com/books?id=ie7Yqiw85TcC&q=%22digital+rights%22+%22human+rights%22 |url-status=live }}</ref>
+At the IGF in Hyderabad in 2008 a merger between the Dynamic Coalitions on Human  Rights for the Internet and on Principles for the Internet let to the Dynamic Coalition on Internet Rights and Principles, which based on the APC Internet Rights Charter and the Universal Declaration of Human Rights elaborated the Charter of Human Rights and Principles for the Internet presented at the IGF in Vilnius in 2010, which since has been translated into several languages.
+
+== Global Network Initiative ==
+On October 29, 2008, the [[Global Network Initiative]] (GNI) was founded upon its "Principles on Freedom of Expression and Privacy". The Initiative was launched in the 60th Anniversary year of the [[Universal Declaration of Human Rights]] (UDHR) and is based on internationally recognized laws and standards for [[human rights]] on [[freedom of expression]] and [[privacy]] set out in the UDHR, the [[International Covenant on Civil and Political Rights]] (ICCPR) and the [[International Covenant on Economic, Social and Cultural Rights]] (ICESCR).<ref>[http://www.globalnetworkinitiative.org/faq/index.php Global Network Initiative, FAQ] {{webarchive|url=https://web.archive.org/web/20090309234331/http://www.globalnetworkinitiative.org/faq/index.php |date=2009-03-09 }}</ref> Participants in the Initiative include the [[Electronic Frontier Foundation]], [[Human Rights Watch]], [[Google]], [[Microsoft]], [[Yahoo]], other major companies, human rights NGOs, investors, and academics.<ref>{{Cite web|url=https://www.hrw.org/news|title=News|website=Human Rights Watch|language=en|access-date=2019-06-19|archive-date=2019-08-24|archive-url=https://web.archive.org/web/20190824131556/https://www.hrw.org/news|url-status=live}}</ref><ref>{{Cite web|url=http://globalnetworkinitiative.org/participants/|title=Participants|website=globalnetworkinitiative.org|access-date=2019-06-19|archive-date=2018-02-19|archive-url=https://web.archive.org/web/20180219045357/http://www.globalnetworkinitiative.org/participants/index.php|url-status=live}}</ref>
+
+According to reports [[Cisco Systems]] was invited to the initial discussions but didn't take part in the initiative. Harrington Investments, which proposed that Cisco establish a human rights board, has dismissed the GNI as a voluntary code of conduct having any impact. Chief executive John Harrington called the GNI "meaningless noise" and instead calls for bylaws to be introduced that force boards of directors to accept human rights responsibilities.<ref>{{cite news |url=https://www.theguardian.com/commentisfree/2008/nov/17/censorship-internet |title=The big business of net censorship |last=Glanville |first=Jo |date=17 November 2008 |work=The Guardian |location=London |access-date=11 December 2016 |archive-date=28 January 2013 |archive-url=https://web.archive.org/web/20130128195629/http://www.guardian.co.uk/commentisfree/2008/nov/17/censorship-internet |url-status=live }}</ref>
+
+==BBC World Service global public opinion poll==
+
+A poll of 27,973 adults in 26 countries, including 14,306 Internet users,<ref>For the BBC poll Internet users are those who used the Internet within the previous six months.</ref> was conducted for the [[BBC World Service]] by the international polling firm [[GlobeScan]] using telephone and in-person interviews between 30 November 2009 and 7 February 2010. GlobeScan Chairman Doug Miller felt, overall, that the poll showed that:
+:Despite worries about privacy and fraud, people around the world see access to the internet as their fundamental right. They think the web is a force for good, and most don’t want governments to regulate it.<ref name="BBCPoll-2010">[http://news.bbc.co.uk/1/shared/bsp/hi/pdfs/08_03_10_BBC_internet_poll.pdf "BBC Internet Poll: Detailed Findings"] {{Webarchive|url=https://web.archive.org/web/20130601163736/http://news.bbc.co.uk/1/shared/bsp/hi/pdfs/08_03_10_BBC_internet_poll.pdf |date=2013-06-01 }}, BBC World Service, 8 March 2010</ref>
+
+Findings from the poll include:<ref name="BBCPoll-2010"/>
+*Nearly four in five (78%) Internet users felt that the Internet had brought them greater freedom.
+*Opinions of users were divided by country of origin. Those in Europe and China believed in some regulation of the internet by the government. However, South Koreans and Nigerians did not agree with government involvement in internet regulation. In the UK, 55% of users supported at least some regulation of the internet.
+*Opinion was evenly split between Internet users who felt that "the internet is a safe place to express my opinions" (48%) and those who disagreed (49%).
+*The aspects of the Internet that cause the most concern include: [[fraud]] (32%), violent and explicit content (27%), threats to [[privacy]] (20%), state [[censorship]] of content (6%), and the extent of corporate presence (3%).
+*Almost four in five Internet users and non-users around the world felt that access to the Internet was a fundamental right (50% strongly agreed, 29% somewhat agreed, 9% somewhat disagreed, 6% strongly disagreed, and 6% gave no opinion).<ref>[http://news.bbc.co.uk/2/hi/8548190.stm "Internet access is 'a fundamental right'"] {{Webarchive|url=https://web.archive.org/web/20120107075123/http://news.bbc.co.uk/2/hi/8548190.stm |date=2012-01-07 }}, ''BBC News'', 8 March 2010</ref>
+
+==Recommendations of the UN Special Rapporteur==
+The 88 recommendations made by the [[United Nations Special Rapporteur|Special Rapporteur]] on the promotion and protection of the right to freedom of opinion and expression in a May 2011 report to the [[United Nations Human Rights Council|Human Rights Council]] of the [[United Nations General Assembly]] include several that bear on the question of Internet access:<ref>[http://www2.ohchr.org/english/bodies/hrcouncil/docs/17session/A.HRC.17.27_en.pdf "VI. Conclusions and recommendations"] {{Webarchive|url=https://web.archive.org/web/20120402152208/http://www2.ohchr.org/english/bodies/hrcouncil/docs/17session/A.HRC.17.27_en.pdf |date=2012-04-02 }}, ''Report of the Special Rapporteur on the promotion and protection of the right to freedom of opinion and expression, Frank La Rue'', Human Rights Council, Seventeenth session
+Agenda item 3, United Nations General Assembly, 16 May 2011</ref>
+:67. Unlike any other medium, the Internet enables individuals to seek, receive and impart information and ideas of all kinds instantaneously and inexpensively across national borders. By vastly expanding the capacity of individuals to enjoy their right to freedom of opinion and expression, which is an "enabler" of other human rights, the Internet boosts economic, social and political development, and contributes to the progress of humankind as a whole. In this regard, the Special Rapporteur encourages other Special Procedures mandate holders to engage on the issue of the Internet with respect to their particular mandates.
+:78. While blocking and filtering measures deny users access to specific content on the Internet, States have also taken measures to cut off access to the Internet entirely. The Special Rapporteur considers cutting off users from Internet access, regardless of the justification provided, including on the grounds of violating intellectual property rights law, to be disproportionate and thus a violation of article 19, paragraph 3, of the International Covenant on Civil and Political Rights.
+:79. The Special Rapporteur calls upon all States to ensure that Internet access is maintained at all times, including during times of political unrest.
+:85. Given that the Internet has become an indispensable tool for realizing a range of human rights, combating inequality, and accelerating development and human progress, ensuring universal access to the Internet should be a priority for all States. Each State should thus develop a concrete and effective policy, in consultation with individuals from all sections of society, including the private sector and relevant Government ministries, to make the Internet widely available, accessible and affordable to all segments of population.
+
+These recommendations have led to the suggestion that Internet access itself is or should become a fundamental human right.<ref>[https://www.du.edu/korbel/hrhw/volumes/2004/best-2004.pdf "Can the Internet be a Human Right?"] {{Webarchive|url=https://web.archive.org/web/20201029051208/https://www.du.edu/korbel/hrhw/volumes/2004/best-2004.pdf |date=2020-10-29 }}, Michael L. Best, ''Human rights & Human Welfare'', Vol. 4 (2004)</ref><ref>{{cite magazine | url=https://www.wired.com/threatlevel/2011/06/internet-a-human-right/ | magazine=Wired | first=David | last=Kravets | title=U.N. Report Declares Internet Access a Human Right | date=June 3, 2011 | access-date=March 6, 2017 | archive-date=March 24, 2014 | archive-url=https://web.archive.org/web/20140324174702/http://www.wired.com/threatlevel/2011/06/internet-a-human-right | url-status=live }}</ref>
+
+==Internet Society's Global Internet User Survey==
+In July and August 2012 the [[Internet Society]] conducted online interviews of more than 10,000 Internet users in 20 countries. Some of the results relevant to Digital rights and Internet access are summarized below.<ref>[https://www.internetsociety.org/sites/default/files/GIUS2012-GlobalData-Table-20121120_0.pdf "Global Internet User Survey 2012"] {{Webarchive|url=https://web.archive.org/web/20130314063616/https://www.internetsociety.org/sites/default/files/GIUS2012-GlobalData-Table-20121120_0.pdf |date=2013-03-14 }}, Internet Society, 20 November 2012</ref>
+
+{| class= "wikitable" 
+|-
+! width="50%" | Question 
+! width="50"  | No. of Responses 
+!             | Responses
+|-
+| Access to the Internet should be considered a basic human right.
+| align="center" | 10,789
+| 83% somewhat or strongly agree,<BR/>14% somewhat or strongly disagree,<BR/>&nbsp;&nbsp;3% don't know
+|-
+| Each individual country has the right to govern the Internet the way they see fit.
+| align="center" | 10,789
+| 67% somewhat or strongly agree,<BR/>29% somewhat or strongly disagree,<BR/>&nbsp;&nbsp;4% don't know /not applicable
+|-
+| The Internet does more to help society than it does to hurt it.
+| align="center" | 10,789
+| 83% somewhat or strongly agree,<BR/>13% somewhat or strongly disagree,<BR/>&nbsp;&nbsp;4% don't know / not applicable
+|-
+| Increased government control of the Internet would make me use the Internet less.
+| align="center" | 9,717
+| 57% somewhat or strongly agree,<BR/>39% somewhat or strongly disagree,<BR/>&nbsp;&nbsp;5% don't know / not applicable
+|-
+| Increased government control of the Internet would increase the number of users.
+| align="center" | 9,717
+| 40% somewhat or strongly agree,<BR/>52% somewhat or strongly disagree,<BR/>&nbsp;&nbsp;8% don't know / not applicable
+|-
+| Governments need to place a higher priority on expanding the Internet and its benefits in my country.
+| align="center" | 10,789
+| 83% somewhat or strongly agree,<BR/>11% somewhat or strongly disagree,<BR/>&nbsp;&nbsp;5% don't know / not applicable
+|-
+| For the Internet to reach its full potential in my country people need to be able to access the Internet without data and content restrictions.
+| align="center" | 10,789
+| 79% somewhat or strongly agree,<BR/>17% somewhat or strongly disagree,<BR/>&nbsp;&nbsp;4% don't know / not applicable
+|}
+
+== Digital rights advocacy groups ==
+* [[AccessNow.org|AccessNow]]
+* [https://www.audri.org Alliance for Universal Digital Rights (AUDRi)]
+* [[Center for Democracy and Technology]]
+* [[Global Digital Human Rights]] (Global Shapers Moscow)<ref>{{Cite web|title=Digital Rights Global Shapers|url=http://maxlaw.tilda.ws/digitalrights_globalshapers|url-status=live|access-date=2021-09-20|website=Global Law Forum|archive-url=https://web.archive.org/web/20200607121206/http://maxlaw.tilda.ws/digitalrights_globalshapers |archive-date=2020-06-07 }}</ref>
+* [[Digital Rights Ireland]]
+* [[Digital Rights Watch]]
+* [[Electronic Frontier Foundation]]
+* [[Entertainment Consumers Association]]
+* [[European Digital Rights]]
+* [[Free Software Foundation]]
+* [[FreedomBox]]
+* [[IT-Political Association of Denmark]]
+* [[Open Rights Group]]
+* [[ParadigmHQ.org|Paradigm Initiative]]
+* [[Public Knowledge]]
+* [[TestPAC]], US political action committee
+* [[World Wide Web Foundation]]
+* [[Xnet]]
+
+== See also ==
+{{Portal|Freedom of speech}}
+{|
+|- valign="top"
+|width="300px"|
+*[[Anti-Counterfeiting Trade Agreement]] (ACTA)
+* [[Computer accessibility]]
+* [[Digital divide]]
+** [[Global digital divide]]
+** [[National broadband plans from around the world]]
+* [[Digital self-determination]]
+* [[Digital rights management]] (DRM)
+* [[Directorate-General for Information Society and Media (European Commission)]]
+* [[Electronic civil disobedience]]
+* [[Global internet usage]]
+|width="300px"|
+*[[Global Internet Freedom Task Force]] (GIFT) - An initiative within the [[United States Department of State|U.S. Department of State]]
+*[[Graduated response]] (aka Three strikes)
+* [[Human rights in cyberspace]]
+* [[Information ethics]]
+* [[Information privacy]]
+* [[Internet censorship]]
+** [[Internet censorship by country]]
+* [[Internet privacy]]
+* [[Network neutrality]]
+* [[Philosophy of information]]
+* [[Protect IP Act]] (PIPA)
+|width="300px"|
+*[[Right to Internet access]]
+*[[Stop Online Piracy Act]] (SOPA)
+*[[Trans-Pacific Partnership]]
+*[[Transatlantic Trade and Investment Partnership]]
+* [[United Nations]]
+** [[Charter of the United Nations]]
+** [[Universal Declaration of Human Rights]]
+** [[Vienna Declaration]]
+* [[Universal service]]
+|}
+
+==References==
+{{reflist|30em}}
+
+==External links==
+{{Library resources box}}
+{{Commonscat}}
+*[http://www.laquadrature.net/en La Quadrature du Net citizens group defending digitals rights in Europe]
+*[https://www.apc.org/en/node/5677 APC Internet Rights Charter]
+*[http://epic.org/privacy/drm/ Digital Rights, Electronic Privacy Information Center (E.P.I.C.)]
+*[https://internetrightsandprinciples.org/ Internet Rights & Principles Coalition]
+*[http://news.bbc.co.uk/1/hi/technology/4225938.stm A news article about a digital rights group in the U.K.]
+*[https://web.archive.org/web/20120731165420/http://www.testpac.org/ TestPAC] - US Political Action Committee that defends American Digital Rights
+* {{citation |url=http://opinionator.blogs.nytimes.com/2014/01/26/the-age-of-infopolitics |author=Colin Koopman |work=New York Times |title= The Age of 'Infopolitics' |date=January 26, 2014 }}
+
+{{Substantive human rights}}
+{{Human rights}}
+{{internet censorship by country}}
+
+[[Category:Digital rights| ]]
+[[Category:Computing and society]]
+[[Category:Access to Knowledge movement]]

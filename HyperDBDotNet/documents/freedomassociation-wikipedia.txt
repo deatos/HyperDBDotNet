@@ -1,0 +1,101 @@
+﻿{{short description|Right to collective action}}
+{{Libertarianism sidebar|concepts}}
+{{Liberalism sidebar}}
+'''Freedom of association''' encompasses both an individual's right to join or leave groups voluntarily, the right of the group to take [[collective action]] to pursue the interests of its members, and the right of an [[club (organization)|association]] to accept or decline membership based on certain criteria. It can be described as the right of a person coming together with other individuals to collectively express, promote, pursue and/or defend common interests.<ref name="Association1" /> Freedom of association is both an [[individual right]] and a [[collective right]], guaranteed by all modern and democratic legal systems, including the [[United States Bill of Rights]], [[Article 11 ECHR|article 11]] of the [[European Convention on Human Rights]], [[Section 2 of the Canadian Charter of Rights and Freedoms|section 2]] of the [[Canadian Charter of Rights and Freedoms]], and [[international law]], including articles 20 and 23 of the [[Universal Declaration of Human Rights]] and article 22 of [[International Covenant on Civil and Political Rights]].  The [[Declaration on Fundamental Principles and Rights at Work]] by the [[International Labour Organization]] also ensures these rights.
+
+Freedom of association is manifested through the right to join a [[trade union]], to engage in [[free speech]] or to participate in debating societies, [[political parties]], or any other club or association, including [[religious denominations]] and [[religious organizations|organizations]], [[fraternities]], and [[sport clubs]] and not to be compelled to belong to an association.<ref>[[Universal Declaration of Human Rights]], Article 20, 2</ref> It is closely linked with [[freedom of assembly]], particularly under the [[U.S. Bill of Rights]]. Freedom of assembly is typically associated with political contexts. However, (e.g. [[the U.S. Constitution]], [[human rights instruments]], etc.) the right to freedom of association may include the right to [[freedom of assembly]]. In the United States, since the [[Civil Rights Act of 1968]], freedom of association was largely curtailed regarding housing, education, and business when it comes to [[Race (human categorization)|race]] or [[ethnicity]].
+
+The courts and delegated officers of local jurisdictions may impose restrictions on any of the rights of a convicted criminal as a condition of a legal stipulation. Rights to freedom of association and freedom of assembly are waived under certain circumstances, such as a guilty plea or conviction, restraining orders and probationer's [[search and seizure]] procedures.
+
+==History==
+The general freedom to associate with groups according to the choice of the individual, and for the groups to take action to promote their interests, has been a necessary feature of every democratic society. Because freedom of association necessarily recognizes pluralistic sources of power and organisation, aside from the government, it has been a primary target for repression by all dictatorial societies. In the [[United Kingdom]], all forms of "combination" were prohibited and criminal, particularly worker organisations, until the [[Combination Act 1825]]. After this, it was still not by the [[Companies Act 1856]], the [[Trade Union Act 1871]] and the [[Criminal Conspiracy and Protection of Property Act 1875]] that companies and then trade unions became generally lawful. In Germany, a similar set of repressive laws were put in place against both trade unions and social democrat organisations by the [[Otto von Bismarck|Bismarck]] government under the ''[[Sozialistengesetze]]'' (the "Socialist Acts") in 1878. These remained in force until 1890. In 1933, trade unions were once again prohibited by the [[Fascist]] dictatorship of [[Hitler]]'s [[National Socialist]] party, and the existing unions were nationalized and combined into a single government controlled [[German Labor Front]]. In [[West Germany]] after [[World War II]], free trade unions were quickly resurrected and guaranteed by the German ''[[Grundgesetz]]''. In the [[United States]], trade unions were classified by various state courts, at various times, as being in [[restraint of trade]]. Under the [[Clayton Act of 1914]], trade unions were given a general freedom to organize and to act collectively to secure collective agreements, however further hurdles were put in place until the [[National Labor Relations Act 1935]] created a comprehensive labor code.
+
+==Law==
+
+=== Canadian Charter of Rights and Freedoms ===
+Section 2 of the Charter, under the heading of "Fundamental Freedoms", states:
+
+{{blockquote|Everyone has the following fundamental freedoms:
+...
+d) freedom of association.}}
+
+Under Canadian [[jurisprudence]], freedom of expression has three dimensions: the "constitutive" right to form associations with other people, a "derivative" right to collectively invoke other constitutional rights, and the "purposive" right to collectively bargain in order to be on equal footing with other groups and entities.<ref>{{Cite web|last=Government of Canada|first=Department of Justice|date=1999-11-09|title=Charterpedia – Section 2(d) – Freedom of association|url=https://www.justice.gc.ca/eng/csj-sjc/rfc-dlc/ccrf-ccdl/check/art2d.html|access-date=2022-01-10|website=www.justice.gc.ca}}</ref>
+
+===European Convention===
+{{Main|Article 11 ECHR}}
+
+===Italian Constitution===
+In [[Italy]] the freedom of association is established in Article 18 of the [[Constitution of Italy|Constitution]], which states:<ref>{{cite web|title=The Italian Constitution |url=http://www.quirinale.it/page/costituzione|publisher=The official website of the Presidency of the Italian Republic |url-status=dead |archive-url=https://web.archive.org/web/20161127152449/http://www.quirinale.it/qrnw/costituzione/pdf/costituzione_inglese.pdf |archive-date=2016-11-27 }}</ref>
+
+{{quote|Citizens have the right to form associations freely and without authorization for those ends that are not forbidden by criminal law.
+Secret associations and associations that, even indirectly, pursue political aims by means of organisations having a military character shall be forbidden.}}
+
+===South African Bill of Rights===
+{{Main|Constitution of South Africa Chapter 2: Bill of Rights}}
+
+The [[South African Constitution]]'s Bill of Rights establishes the right to freedom of association in Section 18, which states "Everyone has the right to freedom of association." Furthermore, Section 17 states "Everyone has the right, peacefully and unarmed, to assemble, to demonstrate, to picket and to present petitions", thus establishing the right to [[freedom of assembly]]. Workers' right to freedom of association in terms of the right to form trade unions and collective bargaining is recognized separately, in Section 23.<ref>[[Constitution of South Africa Chapter 2: Bill of Rights]]</ref>
+
+===United States Constitution===
+{{United States constitutional law}}
+While the [[United States Constitution]]'s [[First Amendment to the United States Constitution|First Amendment]] identifies the rights to assemble and to petition the [[government]], the text of the First Amendment does not make specific mention of a right to association.  Nevertheless, the [[United States Supreme Court]] held in ''[[NAACP v. Alabama]]'' (1958) that freedom of association is an essential part of [[freedom of speech]] because, in many cases, people can engage in effective speech only when they join with others.<ref>Wayne Batchis, Citizens United and the Paradox of "Corporate Speech": From Freedom of Association to Freedom of The Association, [http://socialchangenyu.com/2013/02/01/citizens-united-and-the-paradox-of-corporate-speech/ 36 N.Y.U. Rev. L. & Soc. Change 5] {{webarchive|url=https://web.archive.org/web/20130513015149/http://socialchangenyu.com/2013/02/01/citizens-united-and-the-paradox-of-corporate-speech/ |date=2013-05-13 }} (2012).</ref> Other Supreme Court cases involving freedom of association issues include:<ref name="foa-1st">{{Cite web |last=Hudson |first=David |date=2009-06-16 |title=Freedom of Association – The First Amendment Encyclopedia |url=https://www.mtsu.edu/first-amendment/article/1594/freedom-of-association |access-date=2021-06-16 |website=[[Middle Tennessee State University]]}}</ref>
+* ''[[Brotherhood of Railroad Trainmen v. Virginia]]'', 377 U.S. 1 (1964)
+* ''[[United Mine Workers v. Illinois State Bar Association]]'', 389 U.S. 217 (1967)
+* ''[[Healy v. James]]'', 408 U.S. 169 (1972)
+* ''[[NAACP v. Claiborne Hardware Co.]]'', 458 U.S. 898 (1982)
+* ''[[Boy Scouts of America v. Dale]]'', 530 U.S. 640 (2000)
+* ''[[Janus v. AFSCME]]'', No. 16-1466, 585 U.S. ___ (2018)
+
+==Issues==
+
+===Intimate association===
+A fundamental element of [[personal liberty]] is the right to choose to enter into and maintain certain intimate human relationships.  These intimate human relationships are considered forms of "intimate association."  The paradigmatic example of "intimate association" is the family.  Depending on the jurisdiction it may also extend to abortion, birth control and private, adult, non-commercial and consensual sexual relationships.
+
+===Expressive association===
+In the United States, expressive associations are groups that engage in activities protected by the First Amendment – [[freedom of speech|speech]], [[Freedom of assembly|assembly]], press, petitioning government for a redress of grievances, and the free exercise of [[religion]].  In ''[[Roberts v. United States Jaycees]]'', the [[U.S. Supreme Court]] held that associations may not exclude people for reasons unrelated to the group's expression.  However, in the subsequent decisions of ''[[Hurley v. Irish-American Gay, Lesbian, and Bisexual Group of Boston]]'', the Court ruled that a group may exclude people from membership if their presence would affect the group's ability to advocate a particular point of view.  The government cannot, through the use of anti-discrimination laws, force groups to include a message that they do not wish to convey.
+
+However, this concept does not now apply in the University setting due to the Supreme Court's ruling in ''[[Christian Legal Society v. Martinez]]'' (2010), which upheld Hastings College of Law policy that the school's conditions on recognizing student groups were viewpoint neutral and reasonable. The policy requires student organizations to allow "any student to participate, become a member, or seek leadership positions, regardless of their status or beliefs" and so, can be used to deny the group recognition as an official student organization because it had required its members to attest in writing that "I believe in: The Bible as the inspired word of God; The Deity of our Lord, Jesus Christ, God's son; The vicarious death of Jesus Christ for our sins; His bodily resurrection and His personal return; The presence and power of the Holy Spirit in the work of regeneration; [and] Jesus Christ, God's son, is Lord of my life." The Court reasoned that because this constitutional inquiry occurs in the education context the same considerations that have led the Court to apply a less restrictive level of scrutiny to speech in limited public forums applies. Thus, the college's all-comers policy is a reasonable, viewpoint-neutral condition on access to the student organization forum.<ref>{{Cite web|url=https://www.oyez.org/cases/2009/08-1371|title=Christian Legal Society Chapter v. Martinez|website=Oyez|publisher=Chicago-Kent College of Law at Illinois Tech|access-date=1 April 2016}}</ref>
+
+====Limitation====
+The implicit First Amendment right of association in the [[U.S. Constitution]] has been limited by court rulings.  For example, it is illegal in the United States to consider race in the making and enforcement of private contracts other than marriage. This limit on freedom of association results from Section 1981 of Title 42 of the [[United States Code]], as balanced against the [[First Amendment to the United States Constitution|First Amendment]] in the 1976 decision of ''[[Runyon v. McCrary]]''.<ref>{{ussc|427|160|1976}}.</ref>
+
+Governments often require [[contracts of adhesion]] with private entities for licensing purposes, such as with [[Financial Industry Regulatory Authority]] for [[stock market]] trading in the [[Securities Exchange Act of 1934#Self-regulatory organizations (SRO)|1938 Maloney Act amendments]] to the [[Securities Exchange Act of 1934]]. These contracts often bar association with banned members, as can be seen in ''United States v. Merriam'', 108 F.3d 1162.
+
+===Organized labor===
+{{see also|UK labour law|US labor law|European labour law|International labour law}}{{Labor}}
+The organization of labor was commonly resisted during the 19th century, with even relatively liberal countries such as the United Kingdom banning it for various periods (in the UK's case, between 1820 and 1824).<ref>{{CathEncy| wstitle = Right of Voluntary Association | short = yes}}</ref>
+
+In the international labour movement, the freedom of association is a right identified under international labour standards as the right of workers to organize and [[collective bargaining|collectively bargain]].  Freedom of association, in this sense, is recognized as a fundamental human right by a number of documents including the [[Universal Declaration of Human Rights]] and [[International Labour Organization]] [[Freedom of Association and Protection of the Right to Organise Convention, 1948|Convention C87]] and [[Right to Organise and Collective Bargaining Convention, 1949|Convention C98]] – two of the eight fundamental, core international labour standards. 'Freedom of association' can also refer to legal bans on private contracts negotiated between a private employer and their employees requiring workers at a particular workplace to join a union as a term and condition of employment. Supporters of this sort of private freedom of association claim that the right to join a union incorporates a right not to join a union. In the [[United States]], the term '[[right to work]]' is more common for this type of law.
+
+"The Supreme Court today (1-21-1997) sharply limited the ability of labor union organizers to go onto an employer's property to distribute literature or urge workers to join the union. In a 6-to-3 opinion written by Justice Clarence Thomas, the Court said that the National Labor Relations Board had failed to give adequate protection to employers' property rights when it adopted a rule four years ago that gave union organizers greater access to areas like the parking lots of shopping centers or factories." -New York Times<ref>{{Cite news|url=https://www.nytimes.com/1992/01/28/us/supreme-court-roundup-limits-placed-on-union-organizers-on-employers-property.html|title=Supreme Court Roundup; Limits Placed on Union Organizers on Employers' Property|last=Greenhouse|first=Linda|date=1992-01-28|work=The New York Times|access-date=2019-06-26|language=en-US|issn=0362-4331}}</ref>
+
+==Theory==
+
+===Democracy and civil society===
+Jeremy McBride argues that respecting the freedom of association by all public authorities and the exercising of this freedom by all sections of society are essential both to establish a "genuine [[democracy]]" and to ensure that, once achieved, it remains "healthy and flourishing". In this regard he sees the formation of political parties as a significant manifestation of the freedom of association.
+
+The freedom of association is however not only exercised in the political sense, but also for a vast array of interests – such as culture, recreation, sport and social and humanitarian assistance. Jeremy McBride argues that the formation of [[non-governmental organizations]] ([[NGOs]]), which he equates with [[civil society]], is the "fruit of associational activity".<ref name="Association1">McBride, Jeremy (2005). ''Freedom of Association, The Essentials of Human Rights'', London: Hodder Arnold, p. 18 {{ISBN?}}</ref>
+
+===Libertarian===
+[[Right-libertarians]] believe that while freedom of association includes the right for workers to organise as unions and to withdraw their labour it also recognises the right of an employer to replace that labour.<ref>{{cite web|url=http://www.adamsmith.org/blog/regulation-industry/a-free-market-in-labour-libertarians-employment-and-the-unions/|title=A free market in labour: libertarians, employment and the unions|publisher=[[Adam Smith Institute]]}}</ref> They also believe that where unions employ coercive or violent tactics, such behaviours would be in breach of both individual rights and property rights. Some critics of unionism allege that such breaches have frequently been the case with union activity.<ref>{{cite web|url=https://mises.org/library/myth-voluntary-unions|title=The Myth of Voluntary Unions|last= DiLorenzo|first=Thomas J.|author-link=Thomas J. DiLorenzo|date=14 September 2004|publisher= [[Mises Institute]]}}</ref>
+
+==See also==
+{{Portal|Libertarianism}}
+* [[Civil liberties]]
+* [[Free association (Marxism and anarchism)]]
+* [[Free State Project]]
+* [[Libertarian socialism]]
+* [[Self-determination]]
+* United Nations [[Special Rapporteur on the rights to freedom of peaceful assembly and of association]]
+* [[Voluntaryism]]
+
+==Notes==
+{{Reflist|30em}}
+
+{{Liberty}}
+{{Particular human rights}}
+{{US1stAmendment Assemble and Petition Clause Supreme Court case law}}
+{{Authority control}}
+
+{{DEFAULTSORT:Freedom Of Association}}
+[[Category:Freedom of association| ]]
+[[Category:Human rights by issue]]
