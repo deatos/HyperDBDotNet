@@ -16,7 +16,7 @@ Initial port done by GPT,  code cleanup etc by deatos
 
 ## Usage:
 
-    ```            
+```            
             var embedder = new HyperDBDotNet.HDEmbed(apikey);
             var DB = new HyperDBDotNet.HyperDBDotNet(embedder);
             DB.AddDocument("This is instructions for a program");
