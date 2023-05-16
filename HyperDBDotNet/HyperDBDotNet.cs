@@ -13,13 +13,10 @@ namespace HyperDBDotNet {
         //private Func<IEnumerable<string>, Matrix<double>> EmbeddingFunction { get; set; }
         //private Func<Matrix<double>, Vector<double>, Vector<double>> SimilarityMetric { get; set; }
         private IEmbed Embedder { get; set; }
-        private SimilarityMetric SimilarityMetric;
 
-        public HyperDBDotNet(SimilarityMetric metric) {
-            //this.SimilarityMetric = VectorOperations.CosineSimilarity;
+        public HyperDBDotNet() {
             this.HDDocuments = new List<string>();
             this.HDVectors = null;
-            this.SimilarityMetric = metric;
             this.Embedder = new HDEmbed();
         }
 
@@ -61,7 +58,6 @@ namespace HyperDBDotNet {
             } else if (vector.Count != HDVectors.ColumnCount) {
                 throw new ArgumentException("All vectors must have the same length.");
             }
-
             HDVectors = HDVectors.InsertRow(HDVectors.RowCount, vector);
             HDDocuments.Add(document);
         }
@@ -78,6 +74,17 @@ namespace HyperDBDotNet {
                 var data = JsonConvert.DeserializeObject<Dictionary<string, object>>(json);
                 HDVectors = Matrix<double>.Build.DenseOfRowArrays(((List<List<double>>)data["vectors"]).Select(row => row.ToArray()));
                 HDDocuments = ((List<string>)data["documents"]);
+                //TODO: Finish this
+            }
+        }
+        public void Save(string storageFile) {
+            var data = new Dictionary<string, object> {
+                ["vectors"] = HDVectors.ToRowArrays().ToList(),
+                ["documents"] = HDDocuments
+            };
+            var json = JsonConvert.SerializeObject(data);
+            using (var writer = new StreamWriter(storageFile)) {
+                writer.Write(json);
             }
         }
 
@@ -85,7 +92,7 @@ namespace HyperDBDotNet {
             //var queryVector = EmbeddingFunction(new[] { queryText }).Row(0);
             var queryVector = this.Embedder.GetVector(queryText);
             //TODO: FIX THIS
-            var rankedResults = VectorOperations.HyperSvmRankingAlgorithmSort(HDVectors, queryVector, topK, SimilarityMetric);
+            var rankedResults = VectorOperations.HyperSvmRankingAlgorithmSort(HDVectors, queryVector, topK);
 
             return rankedResults.Select(index => HDDocuments[index]).ToList();
         }
