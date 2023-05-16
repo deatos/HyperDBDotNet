@@ -8,7 +8,7 @@ using MathNet.Numerics.LinearAlgebra;
 namespace HyperDBDotNet {
     public class HDEmbed : IEmbed {
 
-        public HDEmbed() {
+        public HDEmbed(string apikey) {
             throw new NotImplementedException();
         }
 

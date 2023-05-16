@@ -14,10 +14,10 @@ namespace HyperDBDotNet {
         //private Func<Matrix<double>, Vector<double>, Vector<double>> SimilarityMetric { get; set; }
         private IEmbed Embedder { get; set; }
 
-        public HyperDBDotNet() {
+        public HyperDBDotNet(IEmbed Embedder) {
             this.HDDocuments = new List<string>();
             this.HDVectors = null;
-            this.Embedder = new HDEmbed();
+            this.Embedder = Embedder;
         }
 
         /*
