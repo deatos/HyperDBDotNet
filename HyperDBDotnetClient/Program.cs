@@ -18,8 +18,9 @@
             DB = new HyperDBDotNet.HyperDBDotNet(embedder);
             DB.AddDocument("This is instructions for a program");
             DB.AddDocument("This is a test document");
-            
-            var res = DB.Query("test", 5);
+
+            var res = DB.Query("find me a test document", 5);
+            var res2 = DB.Query("find me instructions on a program", 5);
         }
     }
 }

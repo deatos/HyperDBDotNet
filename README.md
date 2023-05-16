@@ -14,36 +14,15 @@ This was a quick port, so it's not very well tested(not at all as of now). I'm u
 I will be adding more documentation as I go.
 Initial port done by GPT,  code cleanup etc by deatos
 
-## Usage(will updated soon):
+## Usage:
 
-    ```csharp
-        var documents = new List<string>();
-        using (var reader = new StreamReader("demo/pokemon.jsonl"))
-        {
-            string line;
-            while ((line = reader.ReadLine()) != null)
-            {
-                documents.Add(line);
-            }
-        }
-
-        // Instantiate HyperDB with the list of documents
-        var db = new HyperDB(documents, "info.description");
-
-        // Save the HyperDB instance to a file
-        db.Save("demo/pokemon_hyperdb.json");
-
-        // Load the HyperDB instance from the save file
-        db.Load("demo/pokemon_hyperdb.json");
-
-        // Query the HyperDB instance with a text input
-        var results = db.Query("Likes to sleep.", topK: 5);
-
-        // Print the results
-        foreach (var result in results)
-        {
-            Console.WriteLine(result);
-        }
+    ```            
+            var embedder = new HyperDBDotNet.HDEmbed(apikey);
+            var DB = new HyperDBDotNet.HyperDBDotNet(embedder);
+            DB.AddDocument("This is instructions for a program");
+            DB.AddDocument("This is a test document");
+            var res = DB.Query("find me a test document", 5);
+            var res2 = DB.Query("find me instructions on a program", 5);
 ```
 
 
