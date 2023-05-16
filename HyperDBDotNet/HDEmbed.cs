@@ -8,12 +8,22 @@ using MathNet.Numerics.LinearAlgebra;
 namespace HyperDBDotNet {
     public class HDEmbed : IEmbed {
 
+        private OpenAI.OpenAIClient Client;
+
         public HDEmbed(string apikey) {
-            throw new NotImplementedException();
+            var c = new OpenAI.OpenAIAuthentication(apikey);
+            this.Client = new OpenAI.OpenAIClient(c);
         }
 
         public Vector<Double> GetVector(String Document) {
-            throw new NotImplementedException();
+            var result = this.Client.EmbeddingsEndpoint.CreateEmbeddingAsync(Document, OpenAI.Models.Model.Embedding_Ada_002).GetAwaiter().GetResult();
+            //TODO: Add error handling
+            var res = result.Data[0];
+            var ret = Vector<Double>.Build.Dense(res.Embedding.Count);
+            for (int i = 0; i < res.Embedding.Count; i++) {
+                ret[i] = res.Embedding[i];
+            }
+            return ret;
         }
     }
 }
