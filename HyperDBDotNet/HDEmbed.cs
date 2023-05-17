@@ -11,8 +11,7 @@ namespace HyperDBDotNet {
         private OpenAI.OpenAIClient Client;
 
         public HDEmbed(string apikey) {
-            var c = new OpenAI.OpenAIAuthentication(apikey);
-            this.Client = new OpenAI.OpenAIClient(c);
+            this.Client = new OpenAI.OpenAIClient(new OpenAI.OpenAIAuthentication(apikey));
         }
 
         public Vector<Double> GetVector(String Document) {

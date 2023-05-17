@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using MathNet.Numerics.LinearAlgebra;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace HyperDBDotNet {
     public class HyperDBDotNet {
@@ -48,6 +49,7 @@ namespace HyperDBDotNet {
         }
         */
         public void AddDocument(string document, Vector<double> vector = null) {
+            if (document == "") return;
             if (vector == null) {
                // vector = EmbeddingFunction(new[] { document }).Row(0);
                 vector = this.Embedder.GetVector(document);
@@ -68,15 +70,7 @@ namespace HyperDBDotNet {
             }
         }
 
-        public void Load(string storageFile) {
-            using (var reader = new StreamReader(storageFile)) {
-                var json = reader.ReadToEnd();
-                var data = JsonConvert.DeserializeObject<Dictionary<string, object>>(json);
-                HDVectors = Matrix<double>.Build.DenseOfRowArrays(((List<List<double>>)data["vectors"]).Select(row => row.ToArray()));
-                HDDocuments = ((List<string>)data["documents"]);
-                //TODO: Finish this
-            }
-        }
+
         public void Save(string storageFile) {
             var data = new Dictionary<string, object> {
                 ["vectors"] = HDVectors.ToRowArrays().ToList(),
@@ -87,6 +81,19 @@ namespace HyperDBDotNet {
                 writer.Write(json);
             }
         }
+        public void Load(string storageFile) {
+            using (var reader = new StreamReader(storageFile)) {
+                var json = reader.ReadToEnd();
+                var data = JsonConvert.DeserializeObject<Dictionary<string, object>>(json);
+                HDDocuments = ((JArray)data["documents"]).ToObject<List<string>>();
+
+                var vectorsList = ((JArray)data["vectors"]).ToObject<List<List<double>>>();
+                var rows = vectorsList.Count;
+                var cols = vectorsList[0].Count;
+                HDVectors = Matrix<double>.Build.DenseOfRowArrays(vectorsList.Select(v => v.ToArray()).ToArray());
+            }
+        }
+
 
         public List<string> Query(string queryText, int topK = 5) {
             //var queryVector = EmbeddingFunction(new[] { queryText }).Row(0);
