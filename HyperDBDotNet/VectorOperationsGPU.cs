@@ -19,6 +19,8 @@ namespace HyperDBDotNet {
         private bool _isDirty = true;
         private Context _context;
         private Accelerator _accelerator;
+        private Action<Index1D, ArrayView<double>, ArrayView<double>> _kernel;
+
 
         public VectorOperationsGPU(Matrix<double> HDVectors, List<string> HDDocuments) {
             this._vectors = HDVectors;
@@ -28,6 +30,7 @@ namespace HyperDBDotNet {
             builder.Caching(CachingMode.Default);
             _context = builder.ToContext();
             _accelerator = _context.CreateCudaAccelerator(0);
+            _kernel = _accelerator.LoadAutoGroupedStreamKernel<Index1D, ArrayView<double>, ArrayView<double>>(NormKernel);
         }
         private Vector<double> GetNormVector(Vector<double> vector) {
             return vector / vector.L2Norm();
@@ -43,19 +46,13 @@ namespace HyperDBDotNet {
         private double[] GetNormVector(double[] vector) {
             var deviceVector = _accelerator.Allocate1D<double>(vector.Length);
             deviceVector.CopyFromCPU(vector);
-
             var output = _accelerator.Allocate1D<double>(vector.Length);
-
-            var normKernel = _accelerator.LoadAutoGroupedStreamKernel<Index1D, ArrayView<double>, ArrayView<double>>(NormKernel);
-            normKernel((int)output.Length, deviceVector.View, output.View);
+            _kernel((int)output.Length, deviceVector.View, output.View);
             _accelerator.Synchronize();
-
             double[] result = new double[output.Length];
             output.CopyToCPU(result);
-
             deviceVector.Dispose();
             output.Dispose();
-
             return result;
         }
 
@@ -79,6 +76,9 @@ namespace HyperDBDotNet {
 
             output[i] = data[i] / norm;
         }
+
+
+
         public Vector<double> CosineSimilarity(Vector<double> queryVector) {
             if (_isDirty) {
                 _normvectors = GetNormVector(_vectors);
