@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection.Metadata;
+using System.Runtime.CompilerServices;
 using MathNet.Numerics.LinearAlgebra;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 namespace HyperDBDotNet {
     public class HyperDBDotNet {
+        public static Boolean DEBUGMODE = false;
         private List<string> HDDocuments { get; set; }
         private Matrix<double> HDVectors { get; set; }
         
@@ -81,7 +84,7 @@ namespace HyperDBDotNet {
                 writer.Write(json);
             }
         }
-        public void Load(string storageFile) {
+        public int Load(string storageFile) {
             using (var reader = new StreamReader(storageFile)) {
                 var json = reader.ReadToEnd();
                 var data = JsonConvert.DeserializeObject<Dictionary<string, object>>(json);
@@ -91,12 +94,12 @@ namespace HyperDBDotNet {
                 var rows = vectorsList.Count;
                 var cols = vectorsList[0].Count;
                 HDVectors = Matrix<double>.Build.DenseOfRowArrays(vectorsList.Select(v => v.ToArray()).ToArray());
+                return HDVectors.RowCount;
             }
         }
 
 
         public List<string> Query(string queryText, int topK = 5) {
-            //var queryVector = EmbeddingFunction(new[] { queryText }).Row(0);
             var queryVector = this.Embedder.GetVector(queryText);
             //TODO: FIX THIS
             var rankedResults = VectorOperations.HyperSvmRankingAlgorithmSort(HDVectors, queryVector, topK);
@@ -104,12 +107,7 @@ namespace HyperDBDotNet {
             return rankedResults.Select(index => HDDocuments[index]).ToList();
         }
 
-        // The GetEmbedding function would go here, but it's not possible to provide a direct C# equivalent
-        // since it depends on the OpenAI API that isn't available for C#.
-        // You can create your own implementation that uses a different text embedding library or API.
-        private static Matrix<double> GetEmbedding(IEnumerable<string> documents, string key) {
-            throw new NotImplementedException("Please implement the GetEmbedding method.");
-        }
+
     }
     public enum SimilarityMetric {
         CosineSimilarity,

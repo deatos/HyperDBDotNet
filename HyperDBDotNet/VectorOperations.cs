@@ -4,22 +4,39 @@ using MathNet.Numerics.LinearAlgebra;
 
 namespace HyperDBDotNet {
     public static class VectorOperations {
+      
         public static Vector<double> GetNormVector(Vector<double> vector) {
             return vector / vector.L2Norm();
         }
-
         public static Matrix<double> GetNormVector(Matrix<double> matrix) {
-            var normMatrix = matrix.Clone();
-            for (int i = 0; i < matrix.RowCount; i++) {
+            var normMatrix = Matrix<double>.Build.Dense(matrix.RowCount, matrix.ColumnCount);
+            Parallel.For(0, matrix.RowCount, i => {
                 normMatrix.SetRow(i, GetNormVector(matrix.Row(i)));
-            }
+            });
             return normMatrix;
         }
+        public static void NormalizeInPlace(Vector<double> vector) {
+            vector /= vector.L2Norm();
+        }
 
-        public static Vector<double> CosineSimilarity(Matrix<double> vectors, Vector<double> queryVector) {
+        public static void NormalizeInPlace(Matrix<double> matrix) {
+            Parallel.For(0, matrix.RowCount, i =>
+            {
+                var row = matrix.Row(i);
+                NormalizeInPlace(row);
+                matrix.SetRow(i, row);
+            });
+        }
+       /* public static Vector<double> CosineSimilarity(Matrix<double> vectors, Vector<double> queryVector) {
             var normVectors = GetNormVector(vectors);
             var normQueryVector = GetNormVector(queryVector);
             return normVectors * normQueryVector;
+        }*/
+
+        public static Vector<double> CosineSimilarity(Matrix<double> vectors, Vector<double> queryVector) {
+            NormalizeInPlace(vectors);
+            NormalizeInPlace(queryVector);
+            return vectors * queryVector;
         }
 
         public static Vector<double> EuclideanMetric(Matrix<double> vectors, Vector<double> queryVector) {
