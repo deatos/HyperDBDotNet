@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace HyperDBDotNet {
     public class HDEmbed : IEmbed {
 
-        private OpenAI.OpenAIClient Client;
+        private readonly OpenAI.OpenAIClient Client;
         public static int TotalTokens = 0;
 
         public HDEmbed(string apikey) {

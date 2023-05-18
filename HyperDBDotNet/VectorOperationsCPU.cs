@@ -9,12 +9,12 @@ namespace HyperDBDotNet {
     public class VectorOperationsCPU {
         private Matrix<double> _vectors;
         private List<string> _documents;
-
+        private Matrix<double> _normvectors;
+        private bool _isDirty = true;
         public VectorOperationsCPU(Matrix<double> HDVectors, List<string> HDDocuments) {
             this._vectors = HDVectors;
             this._documents = HDDocuments;
         }
-        /*
        private Vector<double> GetNormVector(Vector<double> vector) {
            return vector / vector.L2Norm();
        }
@@ -26,30 +26,18 @@ namespace HyperDBDotNet {
            });
            return normMatrix;
        }
-       */
-        private void NormalizeInPlace(Vector<double> vector) {
-            vector /= vector.L2Norm();
-        }
-
-        private void NormalizeInPlace(Matrix<double> matrix) {
-            Parallel.For(0, matrix.RowCount, i =>
-            {
-                var row = matrix.Row(i);
-                NormalizeInPlace(row);
-                matrix.SetRow(i, row);
-            });
-        }
-      /* public static Vector<double> CosineSimilarity(Matrix<double> vectors, Vector<double> queryVector) {
-            var normVectors = GetNormVector(vectors);
+       
+     
+       public Vector<double> CosineSimilarity(Vector<double> queryVector) {
+            if (_isDirty) {
+                _normvectors = GetNormVector(_vectors);
+                _isDirty = false;
+            }
             var normQueryVector = GetNormVector(queryVector);
-            return normVectors * normQueryVector;
-        }*/
-
-        public Vector<double> CosineSimilarity(Vector<double> queryVector) {
-            NormalizeInPlace(_vectors);
-            NormalizeInPlace(queryVector);
-            return _vectors * queryVector;
+            return _normvectors * normQueryVector;
         }
+
+        
 
 
         public int[] HyperSvmRankingAlgorithmSort(Vector<double> queryVector, int topK = 5, Func<Matrix<double>, Vector<double>, Vector<double>> metric = null) {
@@ -83,6 +71,7 @@ namespace HyperDBDotNet {
                 var rows = vectorsList.Count;
                 var cols = vectorsList[0].Count;
                 _vectors = Matrix<double>.Build.DenseOfRowArrays(vectorsList.Select(v => v.ToArray()).ToArray());
+                _isDirty = true;
                 return _vectors.RowCount;
             }
         }
@@ -96,6 +85,7 @@ namespace HyperDBDotNet {
             }
             _vectors = _vectors.InsertRow(_vectors.RowCount, vector);
             _documents.Add(document);
+            _isDirty = true;
         }
         public List<string> GetResults(int[] RankedResults) {
             return RankedResults.Select(index => _documents[index]).ToList();

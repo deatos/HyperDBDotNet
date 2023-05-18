@@ -11,7 +11,7 @@ using Newtonsoft.Json.Linq;
 namespace HyperDBDotNet {
     public class HyperDBDotNet {
         public static Boolean DEBUGMODE = false;
-        private VectorOperations _vectorOperations;
+        private readonly VectorOperationsCPU _vectorOperations;
         
         
         //private Func<IEnumerable<string>, Matrix<double>> EmbeddingFunction { get; set; }
@@ -20,7 +20,7 @@ namespace HyperDBDotNet {
 
         public HyperDBDotNet(IEmbed Embedder) {
             var HDDocuments = new List<string>();
-            this._vectorOperations = new VectorOperations(null, HDDocuments);
+            this._vectorOperations = new VectorOperationsCPU(null, HDDocuments);
             this.Embedder = Embedder;
         }
 
@@ -28,10 +28,7 @@ namespace HyperDBDotNet {
         public void AddDocument(string document, Vector<double> vector = null) {
             if (document == "") return;
             //TODO: Need better handling here
-            if (vector == null) {
-               // vector = EmbeddingFunction(new[] { document }).Row(0);
-                vector = this.Embedder.GetVector(document);
-            }
+            vector ??= this.Embedder.GetVector(document);
             _vectorOperations.AddDocument(document, vector);
         }
 

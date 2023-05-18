@@ -11,15 +11,15 @@ And that's not all. Ever wondered how your phone knows it's you just by looking 
 So, next time you're swimming with the high-dimensional data sharks (and let's face it, who isn't?), remember the vector databases. Backed by those generous venture capitalists, they're the silent knights making sense of the chaos. If only those VCs could come up with a similar tool to justify half the things they fund...
 
 ## Things we swear we're going to do at some point:
-
- - [ ] Make indexes instead of multiple instances of the main class
- - [ ] Major code cleanup. It's not a mess, it's just... uniquely organized.
+ - [ ] Add GPU support. Because we're all about speed.
+ - [*] Make indexes instead of multiple instances of the main class
+ - [*] Major code cleanup. It's not a mess, it's just... uniquely organized.
  - [ ] Add more documentation. Because who doesn't love a good manual?
  - [ ] Add actual tests, not just a demo. Because "it works on my machine" isn't a testing strategy.
  - [ ] Look into ways to reduce the search space. It's not that we're lost, we just enjoy exploring.
  - [ ] Add a caching layer so we don't have to store the entire database in memory. RAM is expensive, you know.
  - [ ] Maybe some kind of compression? Because we're all about efficiency.
- - [ ] Add a way to save the database to disk. Because we're not all about efficiency.
+ - [X] Add a way to save the database to disk. Because we're not all about efficiency.
 
 
 
