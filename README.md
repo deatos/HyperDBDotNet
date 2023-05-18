@@ -25,7 +25,7 @@ So, next time you're swimming with the high-dimensional data sharks (and let's f
 
 VectorOperations.cs is a port of BigBrainMathStuff from https://github.com/jdagdelen/hyperDB,  check this project out if you need a local vector database for python.
 
-## How to use this thing(HDEmbed uses OpenAI,  but you can supply your own embedder,  just impliment IEmbed:
+## How to use this thing(HDEmbed uses OpenAI,  but you can supply your own embedder,  just impliment IEmbed):
 
 ```
             var embedder = new HyperDBDotNet.HDEmbed(apikey);
