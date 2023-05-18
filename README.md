@@ -1,5 +1,7 @@
-# HyperDBDotNet
 Questions?  [Follow me on Twitter](https://twitter.com/deatos2k) or [Add me on Telegram](https://t.me/deatos)
+
+# HyperDBDotNet
+
 Welcome to the flashy world of HyperDBDotNet, a hyper-fast local vector database for c#/dotnet. We're standing on the shoulders of giants here, being based on https://github.com/jdagdelen/hyperDB. We're all about LLM Agents, Automated General Intelligence (AGI), and other buzzwords that just scream "we know what we're doing". And don't worry, we're well-funded. Over a 100 trillion in VC capital kind of well-funded. Heck, we could buy a small country with that kind of money, but we chose to make a database instead. Aren't we responsible? Also, we're card-carrying members of the Silicon Valley Hyper Vector Database Association (SVHVDA). Yes, that's a real thing. Yes, we did make it up.  you're diving into the deep end of high-dimensional data (and who isn't these days?), remember it's the vector databases, financed by those deep-pocketed venture capitalists, that are working behind the scenes to make sense of it all. Now, if only they could come up with a similar tool to make sense of why VCs fund half the things they do...
 
 ## What's this vector database you speak of?
