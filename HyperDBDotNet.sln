@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDStressTest", "HDStressTest\HDStressTest.csproj", "{4E982C4F-F55C-4603-A990-27BFD814FFFA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestClient", "TestClient", "{2349429B-CD4A-483E-9BDB-D092443B02E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperDBDotNetTestClient", "HyperDBDotNetTestClient\HyperDBDotNetTestClient.csproj", "{01F0D09B-C398-4CFC-AB98-7A5CADB40E74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +31,16 @@ Global
 		{4E982C4F-F55C-4603-A990-27BFD814FFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E982C4F-F55C-4603-A990-27BFD814FFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E982C4F-F55C-4603-A990-27BFD814FFFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F0D09B-C398-4CFC-AB98-7A5CADB40E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F0D09B-C398-4CFC-AB98-7A5CADB40E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F0D09B-C398-4CFC-AB98-7A5CADB40E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F0D09B-C398-4CFC-AB98-7A5CADB40E74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01F0D09B-C398-4CFC-AB98-7A5CADB40E74} = {2349429B-CD4A-483E-9BDB-D092443B02E0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {440703CF-C8D4-4401-BAC5-CCDAD5A3F966}
