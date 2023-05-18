@@ -1,33 +1,85 @@
-﻿using System;
-using System.Linq;
-using MathNet.Numerics.LinearAlgebra;
+﻿using MathNet.Numerics.LinearAlgebra;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ILGPU;
+using ILGPU.Runtime;
+using ILGPU.Runtime.Cuda;
+using MathNet.Numerics.LinearAlgebra.Double;
 
 namespace HyperDBDotNet {
-
-    public class VectorOperationsCPU {
+    public class VectorOperationsGPU {
         private Matrix<double> _vectors;
         private List<string> _documents;
         private Matrix<double> _normvectors;
         private bool _isDirty = true;
-        public VectorOperationsCPU(Matrix<double> HDVectors, List<string> HDDocuments) {
+        private Context _context;
+        private Accelerator _accelerator;
+
+        public VectorOperationsGPU(Matrix<double> HDVectors, List<string> HDDocuments) {
             this._vectors = HDVectors;
             this._documents = HDDocuments;
+            var builder = Context.Create();
+            builder.AllAccelerators();
+            builder.Caching(CachingMode.Default);
+            _context = builder.ToContext();
+            _accelerator = _context.CreateCudaAccelerator(0);
         }
-       private Vector<double> GetNormVector(Vector<double> vector) {
-           return vector / vector.L2Norm();
-       }
+        private Vector<double> GetNormVector(Vector<double> vector) {
+            return vector / vector.L2Norm();
+        }
 
-       private Matrix<double> GetNormVector(Matrix<double> matrix) {
-           var normMatrix = Matrix<double>.Build.Dense(matrix.RowCount, matrix.ColumnCount);
-           Parallel.For(0, matrix.RowCount, i => {
-               normMatrix.SetRow(i, GetNormVector(matrix.Row(i)));
-           });
-           return normMatrix;
-       }
-       
-       private Vector<double> CosineSimilarity(Vector<double> queryVector) {
+        private Matrix<double> GetNormVector(Matrix<double> matrix) {
+            var normMatrix = Matrix<double>.Build.Dense(matrix.RowCount, matrix.ColumnCount);
+            Parallel.For(0, matrix.RowCount, i => {
+                normMatrix.SetRow(i, GetNormVector(matrix.Row(i)));
+            });
+            return normMatrix;
+        }
+        private double[] GetNormVector(double[] vector) {
+            var deviceVector = _accelerator.Allocate1D<double>(vector.Length);
+            deviceVector.CopyFromCPU(vector);
+
+            var output = _accelerator.Allocate1D<double>(vector.Length);
+
+            var normKernel = _accelerator.LoadAutoGroupedStreamKernel<Index1D, ArrayView<double>, ArrayView<double>>(NormKernel);
+            normKernel((int)output.Length, deviceVector.View, output.View);
+            _accelerator.Synchronize();
+
+            double[] result = new double[output.Length];
+            output.CopyToCPU(result);
+
+            deviceVector.Dispose();
+            output.Dispose();
+
+            return result;
+        }
+
+        private double[][] GetNormMatrix(double[][] matrix) {
+            int rows = matrix.Length;
+            int cols = matrix[0].Length;
+
+            var normMatrix = new double[rows][];
+
+            for (int i = 0; i < rows; i++) {
+                normMatrix[i] = GetNormVector(matrix[i]);
+            }
+
+            return normMatrix;
+        }
+        private static void NormKernel(Index1D i, ArrayView<double> data, ArrayView<double> output) {
+            double norm = 0.0;
+            for (int j = 0; j < data.Length; j++)
+                norm += data[j] * data[j];
+            norm = Math.Sqrt(norm);
+
+            output[i] = data[i] / norm;
+        }
+        public Vector<double> CosineSimilarity(Vector<double> queryVector) {
             if (_isDirty) {
                 _normvectors = GetNormVector(_vectors);
                 _isDirty = false;
@@ -37,9 +89,9 @@ namespace HyperDBDotNet {
         }
 
         public int[] HyperSvmRankingAlgorithmSort(Vector<double> queryVector, int topK = 5, Func<Matrix<double>, Vector<double>, Vector<double>> metric = null) {
-          //  if (metric == null) {
+            //  if (metric == null) {
             //    metric = CosineSimilarity;
-           // }
+            // }
 
             var similarities = CosineSimilarity(queryVector);
             var sortedIndices = Enumerable.Range(0, similarities.Count).ToArray();
@@ -72,7 +124,7 @@ namespace HyperDBDotNet {
             }
         }
         public void AddDocument(string document, Vector<double> vector) {
-          
+
 
             if (_vectors == null) {
                 _vectors = Matrix<double>.Build.Dense(0, vector.Count);
