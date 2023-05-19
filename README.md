@@ -22,7 +22,7 @@ So, next time you're swimming with the high-dimensional data sharks (and let's f
  - [ ] Add more documentation. Because who doesn't love a good manual?
  - [ ] Add actual tests, not just a demo. Because "it works on my machine" isn't a testing strategy.
  - [ ] Look into ways to reduce the search space. It's not that we're lost, we just enjoy exploring.
- - [ ] Add a caching layer so we don't have to store the entire database in memory. RAM is expensive, you know.
+ - [X] Add a caching layer so we don't have to store the entire database in memory. RAM is expensive, you know.
  - [ ] Maybe some kind of compression? Because we're all about efficiency.
  - [X] Add a way to save the database to disk. Because we're not all about efficiency.
 
