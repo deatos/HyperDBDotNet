@@ -10,10 +10,12 @@ namespace HyperDBDotNet {
         private Matrix<double> _vectors;
         private List<string> _documents;
         private Matrix<double> _normvectors;
+        private Dictionary<Vector<double>, int[]> _cache;
         private bool _isDirty = true;
         public VectorOperationsCPU(Matrix<double> HDVectors, List<string> HDDocuments) {
             this._vectors = HDVectors;
             this._documents = HDDocuments;
+            this._cache = new Dictionary<Vector<double>, int[]>();
         }
        private Vector<double> GetNormVector(Vector<double> vector) {
            return vector / vector.L2Norm();
@@ -40,11 +42,16 @@ namespace HyperDBDotNet {
           //  if (metric == null) {
             //    metric = CosineSimilarity;
            // }
+           if (_cache.ContainsKey(queryVector)) {
+                return _cache[queryVector];
+            }
 
             var similarities = CosineSimilarity(queryVector);
             var sortedIndices = Enumerable.Range(0, similarities.Count).ToArray();
             Array.Sort(similarities.ToArray(), sortedIndices, Comparer<double>.Create((x, y) => y.CompareTo(x)));
-            return sortedIndices.Take(topK).ToArray();
+            var results = sortedIndices.Take(topK).ToArray();
+            _cache.Add(queryVector, results);
+            return results;
         }
 
         public void Save(string storageFile) {
