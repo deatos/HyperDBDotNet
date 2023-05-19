@@ -2,7 +2,9 @@ Questions?  [Follow me on Twitter](https://twitter.com/deatos2k) or [Add me on T
 
 # HyperDBDotNet
 
-Welcome to the flashy world of HyperDBDotNet(Now with GPU Support... kinda)(Now with caching... kinda), a hyper-fast local vector database for c#/dotnet. We're standing on the shoulders of giants here, being based on https://github.com/jdagdelen/hyperDB. We're all about LLM Agents, Automated General Intelligence (AGI), and other buzzwords that just scream "we know what we're doing". And don't worry, we're well-funded. Over a 100 trillion in VC capital kind of well-funded. Heck, we could buy a small country with that kind of money, but we chose to make a database instead. Aren't we responsible? Also, we're card-carrying members of the Silicon Valley Hyper Vector Database Association (SVHVDA). Yes, that's a real thing. Yes, we did make it up.  you're diving into the deep end of high-dimensional data (and who isn't these days?), remember it's the vector databases, financed by those deep-pocketed venture capitalists, that are working behind the scenes to make sense of it all. Now, if only they could come up with a similar tool to make sense of why VCs fund half the things they do...
+Welcome to the flashy world of HyperDBDotNet(Now with GPU Support... kinda)(Now with caching... kinda), a hyper-fast local vector database for c#/dotnet. We're standing on the shoulders of giants here, being based on https://github.com/jdagdelen/hyperDB.
+
+We're all about LLM Agents, Automated General Intelligence (AGI), and other buzzwords that just scream "we know what we're doing". And don't worry, we're well-funded. Over a 100 trillion in VC capital kind of well-funded. Heck, we could buy a large country with that kind of money, but we chose to make a database instead. Aren't we responsible? Also, we're card-carrying members of the Silicon Valley Hyper Vector Database Association (SVHVDA). Yes, that's a real thing. Yes, we did make it up.  you're diving into the deep end of high-dimensional data (and who isn't these days?), remember it's the vector databases, financed by those deep-pocketed venture capitalists, that are working behind the scenes to make sense of it all.
 
 ## What's this vector database you speak of?
 Buckle up, future tech moguls! You're about to dive into the latest rave of Silicon Valley: Vector Databases. Fancy name, right? It's a database, but not just any old database. It's for vectors. The more dimensions, the merrier.
@@ -11,7 +13,7 @@ So, you're wondering where these shiny vector databases are being put to use? Th
 
 And that's not all. Ever wondered how your phone knows it's you just by looking at your face, or how scientists match up DNA sequences as a fun weekend activity? You guessed it, vector databases. They're also the unsung heroes in monitoring systems and even in plotting your quickest escape to the nearest coffee shop.
 
-So, next time you're swimming with the high-dimensional data sharks (and let's face it, who isn't?), remember the vector databases. Backed by those generous venture capitalists, they're the silent knights making sense of the chaos. If only those VCs could come up with a similar tool to justify half the things they fund...
+So, next time you're swimming with the high-dimensional data sharks (and let's face it, who isn't?), remember the vector databases. Backed by those generous venture capitalists, they're the silent knights making sense of the chaos.
 
 ## Things we swear we're going to do at some point:
  - [ ] Add GPU support. Because we're all about speed.
