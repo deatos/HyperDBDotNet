@@ -33,9 +33,11 @@ namespace HyperDBDotNet {
        private Vector<double> CosineSimilarity(Vector<double> queryVector) {
             if (_isDirty) {
                 _normvectors = GetNormVector(_vectors);
+                _cache.Clear(); //database has changed,  cached results may now be invalid
                 _isDirty = false;
             }
             var normQueryVector = GetNormVector(queryVector);
+            //TODO: Optimize this
             return _normvectors * normQueryVector;
         }
 
