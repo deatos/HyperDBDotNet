@@ -24,7 +24,8 @@ namespace HyperDBDotNet {
        private Matrix<double> GetNormVector(Matrix<double> matrix) {
            var normMatrix = Matrix<double>.Build.Dense(matrix.RowCount, matrix.ColumnCount);
            Parallel.For(0, matrix.RowCount, i => {
-               normMatrix.SetRow(i, GetNormVector(matrix.Row(i)));
+               var norm = matrix.Row(i) / matrix.Row(i).L2Norm();
+               normMatrix.SetRow(i, norm);
            });
            return normMatrix;
        }
