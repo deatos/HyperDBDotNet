@@ -1,3 +1,6 @@
+#This project has been rewritten from the ground up at https://github.com/deatos/HyperVectorDB <--- Please use this instead.
+
+
 Questions?  [Follow me on Twitter](https://twitter.com/deatos2k) or [Add me on Telegram](https://t.me/deatos)
 
 # HyperDBDotNet
